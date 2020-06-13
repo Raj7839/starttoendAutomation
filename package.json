@@ -1,0 +1,26 @@
+{
+  "name": "betterworksassingment",
+  "version": "1.0.0",
+  "description": "Take home assignment for Betterworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Rajgopal Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.17",
+    "@wdio/mocha-framework": "^6.1.17",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^83.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^6.0.3",
+    "webdriverio": "^6.1.17"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.1.17"
+  }
+}
